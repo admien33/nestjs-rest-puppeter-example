@@ -1,0 +1,3 @@
+FROM buildkite/puppeteer:latest
+RUN  npm i handlebars mocha 
+ENV  PATH="${PATH}:/node_modules/.bin"
